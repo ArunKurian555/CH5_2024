@@ -1,1 +1,17 @@
-View1: Floor Plan UI
+View1: Passcode (view 8)
+
+View2: Floorplan (view 9)
+
+View3: Zone Controls (fpZonecontrol)
+
+View4: Settings Page (View4)
+
+
+
+
+
+
+Sub1: Areapop
+Sub2: Scenepop
+Sub3: SceneSave
+Sub4: Dmxpop
