@@ -31,10 +31,13 @@
             ],
             "styles": [
               "src/styles.scss",
-              "node_modules/@crestron/ch5-theme/output/themes/light-theme.css"
+              "node_modules/@crestron/ch5-theme/output/themes/light-theme.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
-            "node_modules/@crestron/ch5-crcomlib/build_bundles/umd/cr-com-lib.js"
+            "node_modules/@crestron/ch5-crcomlib/build_bundles/umd/cr-com-lib.js",
+            "node_modules/bootstrap/dist/js/bootstrap.min.js",
+            "node_modules/jquery/dist/jquery.min.js"
 ]
           },
           "configurations": {
@@ -94,10 +97,13 @@
             ],
             "styles": [
               "src/styles.scss",
-              "node_modules/@crestron/ch5-theme/output/themes/light-theme.css"
+              "node_modules/@crestron/ch5-theme/output/themes/light-theme.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
-            "node_modules/@crestron/ch5-crcomlib/build_bundles/umd/cr-com-lib.js"
+            "node_modules/@crestron/ch5-crcomlib/build_bundles/umd/cr-com-lib.js",
+            "node_modules/bootstrap/dist/js/bootstrap.min.js",
+            "node_modules/jquery/dist/jquery.min.js"
 ]
           }
         }

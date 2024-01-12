@@ -1,16 +1,10 @@
 import { APP_INITIALIZER, ApplicationConfig } from '@angular/core';
 import { provideRouter } from '@angular/router';
-
 import { routes } from './app.routes';
 import { APP_BASE_HREF } from '@angular/common';
-
-
 import { getWebXPanel, runsInContainerApp } from '@crestron/ch5-webxpanel';
-
+import { ChRouteServiceService } from './ch-route-service.service';
 const { isActive, WebXPanel, WebXPanelConfigParams, WebXPanelEvents } = getWebXPanel(!runsInContainerApp());
-
-
-
 const webXPanelFactory = () => () => {
 
 } 
@@ -24,6 +18,8 @@ if(isActive) {
 
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideRouter(routes), { provide: APP_BASE_HREF, useValue: './' }, { provide: APP_INITIALIZER, useFactory: webXPanelFactory, multi: true },]
+    providers: [ ChRouteServiceService,
+    provideRouter(routes), { provide: APP_BASE_HREF, useValue: './' }, { provide: APP_INITIALIZER, useFactory: webXPanelFactory, multi: true },
+  ]
 };
 
