@@ -20,10 +20,6 @@ export class View1Component implements OnInit  {
   ngOnInit(): void {
     let self = this;
 
-
-    
-
-
     const sig2SubKey = CrComLib.subscribeState('b', 'Pinpad.User', function (value: any) {
       if(value)
       self.rout.active = 2;

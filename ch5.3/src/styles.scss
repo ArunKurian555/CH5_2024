@@ -1,5 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+// .mat-mdc-dialog-container
+// {  background-color: whitesmoke;
+//   padding: 0 !important;
+//   width: auto !important; 
 
+// }
+.mat-mdc-dialog-surface{
+  background-color:  whitesmoke !important;
+  padding: 0 !important;
+  width: auto !important; 
+ }
 *
 {
   font-family: sans-serif ;
@@ -183,7 +193,7 @@ font-size: larger;
 .loads
 {
   display: grid;
-  grid-template-columns: 1fr 5fr 1fr .3fr;
+  // grid-template-columns: 1fr 5fr 1fr .3fr;
   justify-items: center;
   align-items: center;
     border: 0;
@@ -324,11 +334,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   color: black !important;
 }
 
-.mat-dialog-container{
- background-color: whitesmoke;
- padding: 0 !important;
- width: auto !important; 
-}
+
 .cdk-overlay-pane
 {
   justify-content: center;
@@ -572,4 +578,10 @@ display: none !important;
   width: 38px !important;
 }
 
+}
+
+.ch5-slider-button-container
+
+{
+  margin-top: 20px !important;
 }

@@ -27,15 +27,15 @@ export class AppComponent {
 
   ngOnInit() {
 
-    this.rout.active = 1;
+    this.rout.active = 2;
     
   }
+//not used now
+  // onClick(id: number) {
+  //   let self = this;
+  //   this.rout.active = id - 1;
 
-  onClick(id: number) {
-    let self = this;
-    this.rout.active = id - 1;
-
-  }
+  // }
 
 
 }

@@ -18,7 +18,7 @@
       display: grid;
       grid-template-rows: 1fr  4.5fr;
       height: 70vh;
-      width: 60vw;
+      // width: 60vw;
       align-items: center;
       justify-items: center;
       padding-top: 0.5em;
@@ -34,11 +34,13 @@
       grid-template-columns: 1fr 5fr 1fr  ;
       align-items: center;
       padding-top: 0em;
+
     }
     
     .load-button {
       display: grid;
       align-items: center;
+      width: 4em;
     }
     
     
@@ -71,6 +73,10 @@
       text-align: center;
     }
     
+    .container
+    {
+
+    }
     
     
     
@@ -107,10 +113,14 @@
     .vscroll
     {
       
-      height: 50vh;
-      width: inherit;
+    height: 42vh;
+    width: 80vw;
+    max-width: 800px;
     }
-    
+    @media (max-height: 800px){
+   
+    }
+
     .ch5btn{
       font-size: 1em; margin: .4em;
       
@@ -182,3 +192,47 @@
     .show1{
       grid-template-columns: 1fr !important;
     }
+
+
+
+
+    .scenetile
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 10px;
+    justify-items: center;
+}
+  
+.scnbtn
+{
+  height: 2.75em;
+  width: 3em; padding: 0; margin: 4px; font-size: 1.5em;
+}
+
+.editname
+{
+    height: 1em; width: 1em;
+}
+@media (max-width: 650px) 
+{
+
+.scenetile
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    overflow: scroll;
+    justify-items: center;
+}
+.scnbtn
+{
+    height: 2em; 
+}
+.ls{
+    display: none;
+}
+
+}
+
+
+

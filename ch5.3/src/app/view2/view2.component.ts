@@ -100,7 +100,7 @@ const sigValuey1 = CrComLib.getState('s', '400', true); const sigValuey2 = CrCom
 
   }
   onclick() {
-    this.rout.active = 5;
+    this.rout.active = 0;
 
 
     const areasize = CrComLib.getState('n', 'Area.Size', true);
