@@ -4,10 +4,11 @@ import { RouterOutlet } from '@angular/router';
 import { ChRouteServiceService } from './ch-route-service.service';
 import { View1Component } from './view1/view1.component';
 import { View2Component } from './view2/view2.component';
+import { View0Component } from './view0/view0.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, View1Component, View2Component],
+  imports: [CommonModule, RouterOutlet, View1Component, View2Component, View0Component],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
@@ -16,27 +17,20 @@ import { View2Component } from './view2/view2.component';
 
 export class AppComponent {
   title = 'ch5.3';
-  constructor(
-    public rout: ChRouteServiceService,
-  ) {
+  constructor(public rout: ChRouteServiceService) 
+  {
 
   }
 
   activeflag: any;
 
 
-  ngOnInit() {
+  ngOnInit() 
+  {
 
-    this.rout.active = 2;
+    this.rout.active = 0;
     
   }
-//not used now
-  // onClick(id: number) {
-  //   let self = this;
-  //   this.rout.active = id - 1;
-
-  // }
-
 
 }
 

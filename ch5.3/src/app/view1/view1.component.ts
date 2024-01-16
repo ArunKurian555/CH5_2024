@@ -1,6 +1,7 @@
 import { CUSTOM_ELEMENTS_SCHEMA, Component, OnInit } from '@angular/core';
 import { ChRouteServiceService } from '../ch-route-service.service';
 import { CommonModule } from '@angular/common';
+import { RouterOutlet } from '@angular/router';
 
 declare var CrComLib: any;
 
@@ -8,7 +9,7 @@ declare var CrComLib: any;
 @Component({
   selector: 'app-view1',
   standalone: true,
-  imports: [ CommonModule],
+  imports: [ CommonModule,RouterOutlet],
   templateUrl: './view1.component.html',
   styleUrl: './view1.component.scss',
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
@@ -16,24 +17,28 @@ declare var CrComLib: any;
 export class View1Component implements OnInit  {
 
   constructor(public rout: ChRouteServiceService) { }
+  
 
   ngOnInit(): void {
-    let self = this;
 
-    const sig2SubKey = CrComLib.subscribeState('b', 'Pinpad.User', function (value: any) {
-      if(value)
-      self.rout.active = 2;
+      
+    const sig2SubKey = CrComLib.subscribeState('b', 'Pinpad.User', (value: any) => {
+      if (value) {
+        this.rout.active = 1;
+      }
+    });
+  
+    const sig3SubKey = CrComLib.subscribeState('b', 'Pinpad.Admin', (value: any) => {
+      if (value) {
+        this.rout.active = 2;
+      }
     });
 
-    const sig3SubKey = CrComLib.subscribeState('b', 'Pinpad.Admin', function (value: any) {
-      if(value)
-      self.rout.active = 3;
-    });
 
 
   }
 
 
-  number = ["1",2,3,4,5,6,7,8,9,0];
+  number = [1,2,3,4,5,6,7,8,9,0];
 
 }

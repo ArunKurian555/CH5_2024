@@ -3,13 +3,6 @@
     <div class="example-boundary">    <button style="background-color: #ffffff;" class="buttons" mat-fab (click)="onclick()">
         <mat-icon> Lock </mat-icon>
     </button>
-    
-        <!-- <button style="float: right; background-color: #ffffff;" class="buttons" mat-fab (click)="save()">
-            <mat-icon>
-                <p>Save</p>
-            </mat-icon>
-        </button>
-         -->
          <div class="example-box" *ngFor="let item of items; index as i;" cdkDragBoundary=".example-boundary" cdkDrag
          [cdkDragStartDelay]="tdelay.active" (cdkDragEnded)="onDragEnded($event,i)" [cdkDragFreeDragPosition]="positionarray[i+1]"
          (click)="controlpop(i)">

@@ -1,0 +1,45 @@
+
+.aligner {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  height: 5vh;
+  grid-template-columns: 1fr 1fr ;
+  background-color: #000000;
+  color: transparent;
+}
+.btn {
+  margin: 0 0;
+  width: 95%;
+  background-color: rgb(197, 197, 197);
+}
+
+.main-swiper {
+  margin: 0 0;
+  padding: 0 0;
+  width: 100vw;
+  height: 100vh;
+}
+.row {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.buttons {
+  color: black;
+  background-color: #ffffff85;
+}
+
+button:hover,
+button:focus {
+  background: #b5bcc278;
+}
+
+button:focus {
+  outline: 0px solid #fff;
+  outline-offset: -4px;
+}
+
+button:active {
+  transform: scale(0.99);
+}
