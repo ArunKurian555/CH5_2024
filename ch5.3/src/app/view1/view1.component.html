@@ -1,25 +1,37 @@
 <div class="contain">
     <div  class="top">
-      <p>Enter PIN to open</p>
-      <p>Your PIN contains 4 digits</p>
+      <p>Enter Passcode</p>
     </div>
-  
+
     <div class="pass">
       <ch5-button receivestatelabel="Pinpad.Dialog" size="x-large"   >
       </ch5-button>
     </div>
-  
+  <div style="    display: grid;
+  justify-items: center; grid-template-rows: 1fr 1fr;">
       <div class="Numpad">
-        <div class="Num" *ngFor="let a of number; index as i;let last = last" [ngClass]="{'last' : last}">
+        <div class="Num" *ngFor="let a of number; index as i;let last = last" [ngClass]="{'last' : last}"  (click)="onclick()">
         <ch5-button label="{{a}}"
         sendEventOnClick="Pinpad.N{{i+1}}"
         type="primary"
-        shape="circle" size="small"
-         >
+        shape="circle" size="small" 
+       >
       </ch5-button>
 
       </div>
+      <!-- <div></div>
+      <div></div>
+      <div></div>
+      <button style="background-color: rgb(255 255 255 / 36%);
+      color: black;
+      margin: 1em;
+      height: 5em;
+      width: 5em;
+     " class="buttons" mat-fab (click)="onclick()">
+        Enter
+    </button> -->
       </div>
-      
+
+  </div>
       </div>
   

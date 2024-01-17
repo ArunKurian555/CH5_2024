@@ -1,6 +1,10 @@
 
-<ch5-triggerview gestureable="false" class="main-swiper" activeView="{{rout.active}}"
+<ch5-triggerview *ngIf="flag==1" gestureable="false" class="main-swiper" activeView="{{rout.active}}"
   endless="false" style="margin: 0 0;" disableanimation="true">
+  
+  <!-- <ch5-triggerview-child style="width: 100vw;">
+    <app-view0.5></app-view0.5>
+  </ch5-triggerview-child> -->
   
   <ch5-triggerview-child style="width: 100vw;">
     <app-view1></app-view1>
@@ -11,6 +15,19 @@
   <ch5-triggerview-child style="width: 100vw;">
     <app-view2></app-view2>
   </ch5-triggerview-child>
-  
 
 </ch5-triggerview>
+
+
+<body style=" font-family: 'Arial', sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;" *ngIf="flag!=0"(click)="onClick()" >
+  <div>
+      <p>System is initializing... Please wait for 10 Seconds</p>
+      <p style="text-align: center;">      Press screen to enter </p>
+  </div>
+</body>
