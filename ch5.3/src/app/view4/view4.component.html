@@ -1,0 +1,56 @@
+<button mat-raised-button (click)="onclick()" class="lock">
+    <mat-icon class="fas fa-lock fa-2x" style="margin: 1px;"></mat-icon>
+    
+</button>
+
+<div class="contain">
+    <button  class="buttons" mat-raised-button (click)="scenesave()">
+        <!-- <mat-icon class="fas fa-lock fa-2x" style="margin: 1vw;"></mat-icon> -->
+        <p style="letter-spacing: 0px;"> Coming Soon</p>
+    </button>
+
+    <button class="buttons" mat-raised-button (click)="editname()">
+        <!-- <mat-icon class="fas fa-edit fa-2x" style="margin: 1vw;"></mat-icon> -->
+        <p style="letter-spacing: 0px;">Rename</p>
+    </button>
+    
+    <button class="buttons" mat-raised-button (click)="Passcode()">
+        <!-- <mat-icon class="fas fa-key fa-2x" style="margin: 1vw;"></mat-icon> -->
+        <p style="letter-spacing: 0px;">Passcode</p>
+    </button>
+    
+    <button  class="buttons" mat-raised-button (click)="LoadSelector()">
+        <!-- <mat-icon class="fas fa-building fa-2x" style="margin: 1vw;" > </mat-icon> -->
+        <p style="letter-spacing: 0px;">Load Settings</p>
+    </button>
+    <button class="buttons " mat-raised-button (click)="clicked2()" >
+        <mat-icon class="fas fa-save fa-2x" style="margin: 1vw;"> <span class="material-icons" style="font-size: 5rem;" >
+                
+            </span></mat-icon>
+        <p class="savebutton"></p>
+    </button>
+ 
+    <div>
+        <button class="buttons" mat-raised-button (click)="ramptime()">
+            <!-- <mat-icon class="fas fa-edit fa-2x" style="margin: 1vw;"></mat-icon> -->
+            <p style="letter-spacing: 0px;">Ramp Time</p>
+        </button></div>
+    <div>
+        <button class="buttons" mat-raised-button (click)="toggle1()" >
+            <!-- <mat-icon class="fas fa-edit fa-2x" style="margin: 1vw;"></mat-icon> -->
+            <p style="margin: 0; letter-spacing: 0;">Programmer</p>
+            <mat-slide-toggle color="primary"  [checked]="useDefault" (change)="toggle($event)"></mat-slide-toggle>
+        </button>
+        
+    </div>
+    <div>
+        <button class="buttons" mat-raised-button (click)="Scheduler()">
+            <!-- <mat-icon class="fas fa-edit fa-2x" style="margin: 1vw;"></mat-icon> -->
+            <p style="letter-spacing: 0px;" >Scheduler</p>
+        </button></div>
+        <div>
+            <button class="buttons" mat-raised-button (click)="ZoneArea()" >
+                <!-- <mat-icon class="fas fa-edit fa-2x" style="margin: 1vw;"></mat-icon> -->
+                <p style="letter-spacing: 0px;">Zone Area</p>
+            </button></div>
+</div>

@@ -1,0 +1,84 @@
+.contain
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  justify-items: center;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;
+  
+  background: azure;
+}
+
+.buttons{
+    height: 12vw !important;
+    width: 15vw !important;
+    font-size: 1.5em;
+    background: border-box !important;
+    color: black !important;
+    padding: 100px ;
+    background-color: #ffffff85 !important;
+    overflow: hidden !important;
+}
+.lock
+{
+  
+  font-size: 1vh;
+  font-family: sans-serif;
+  background: border-box;
+  color: black !important;
+  padding: 0;
+  background-color: #ffffff85 !important;
+  overflow: hidden;
+  margin: 1vw;
+  width: 1vw;
+  height: 5vh;
+}
+
+.chheader
+{
+font-weight: 400;
+font-size: 2em;
+margin: 0 0 0 0;
+padding: .2em 1em .2em 0 ;
+color: rgb(0, 0, 0);
+width: 100vw;
+
+    margin-left: .5em;
+
+}
+
+.savebutton
+{
+  font-size: 10vw;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 500px)
+{
+  .savebutton
+{
+  font-size: 5vw;
+  margin-bottom: 0px;
+}
+
+.contain
+{
+
+  overflow: scroll;
+}
+
+}
+
+
+
+.toggler{
+ text-align: center;
+ width: 15vw;
+ font-size: 2vw;
+}
+
+p{
+  margin: 0;
+}
+

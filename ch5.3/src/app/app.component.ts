@@ -5,10 +5,11 @@ import { ChRouteServiceService } from './ch-route-service.service';
 import { View1Component } from './view1/view1.component';
 import { View2Component } from './view2/view2.component';
 import { View0Component } from './view0/view0.component';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, View1Component, View2Component, View0Component],
+  imports: [CommonModule, RouterOutlet, View1Component, View2Component, View0Component,MatSnackBarModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
