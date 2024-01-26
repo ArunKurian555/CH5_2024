@@ -4,7 +4,6 @@ import { ChRouteServiceService } from '../ch-route-service.service';
 import { TimeDelayService } from '../time-delay.service';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { MatSlideToggleChange } from '@angular/material/slide-toggle';
-import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
 import { EditnameComponentComponent } from '../editname-component/editname-component.component';
 import { RamptimeComponent } from '../ramptime/ramptime.component';
 import { PasscodeComponent } from '../passcode/passcode.component';
@@ -15,7 +14,7 @@ declare var CrComLib: any;
 @Component({
   selector: 'app-view4',
   standalone: true,
-  imports: [MatButtonModule,MatDialogModule,MatSlideToggleModule,MatSnackBarModule],
+  imports: [MatButtonModule,MatDialogModule,MatSlideToggleModule   ],
   templateUrl: './view4.component.html',
   styleUrl: './view4.component.scss',
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
@@ -25,8 +24,7 @@ declare var CrComLib: any;
 
 export class View4Component implements OnInit {
 
-  constructor(public dialog: MatDialog,private snackBar: MatSnackBar,
-    public rout: ChRouteServiceService, public tdelay: TimeDelayService) { }
+  constructor(public dialog: MatDialog, public rout: ChRouteServiceService, public tdelay: TimeDelayService) { }
 
   ngOnInit(): void {
     this.tdelay.active = 100000;
@@ -52,9 +50,6 @@ export class View4Component implements OnInit {
 
   clicked2() {
 
-    this.snackBar.open("Saved", "OK", {
-      duration:3000
-    });
     CrComLib.publishEvent('b', "3071", true);
     CrComLib.publishEvent('b', "3071", false);
   }

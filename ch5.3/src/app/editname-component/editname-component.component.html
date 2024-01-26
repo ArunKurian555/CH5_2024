@@ -27,7 +27,7 @@
             <div *cdkVirtualFor="let item of activeZones; let idx = index"
                 class="loads animate__animated animate__fadeIn">
                 <p id="Zonename">{{activezonelabel[activeZones[idx]]}}</p>
-                <ch5-slider stretch="width" handleShape="circle" orientation="horizontal" tapSettable="true"
+                <ch5-slider  handleShape="circle" orientation="horizontal" tapSettable="true"
                 style="padding: 1em 2em 2em 2em;" sendEventOnChange="{{activeZones[idx]}}"
                 receiveStateValue="{{activeZones[idx]}}" tooltipshowtype="auto" tooltipdisplaytype="%">
             </ch5-slider>

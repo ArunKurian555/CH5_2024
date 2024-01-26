@@ -84,16 +84,18 @@
     <div *cdkVirtualFor="let item of activeZones; let idx = index" class="loads animate__animated animate__fadeIn">
         <!-- <ch5-button id="leftbutton" class="load-button Ls" type="primary"  size="x-small" label="Off" sendEventOnClick="{{activeZones[idx]*10-8}}">
         </ch5-button> -->
-        <div class="container">
+        <div class="container" style="display: grid;
+        justify-content: center;
+        align-items: center;">
             <p id="Zonename" style="margin: 0;">{{activezonelabel[activeZones[idx]]}}</p>
-            <ch5-slider handleShape="circle" orientation="horizontal" tapSettable="true" stretch="width"
+            <ch5-slider handleShape="circle" orientation="horizontal" tapSettable="true" 
                 style="
-                width: 10em;" sendEventOnChange="{{activeZones[idx]}}"
+                    margin-bottom: 15px;" sendEventOnChange="{{activeZones[idx]}}"
                 receiveStateValue="{{activeZones[idx]}}" tooltipshowtype="auto" tooltipdisplaytype="%">
             </ch5-slider>
             <div  *ngIf="CCTactive[activeZones[idx]-1] == 1">
-            <ch5-slider class="CCT" handleShape="circle" orientation="horizontal" tapSettable="true" stretch="width" 
-                style="padding: 0; width: 10em;" sendEventOnChange="{{activeZones[idx]+300}}"
+            <ch5-slider class="CCT" handleShape="circle" orientation="horizontal" tapSettable="true" 
+                style="    margin-bottom: 15px;" sendEventOnChange="{{activeZones[idx]+300}}"
                 receiveStateValue="{{activeZones[idx]+300}}" tooltipshowtype="auto" tooltipdisplaytype="%">
             </ch5-slider>
         </div>
