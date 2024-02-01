@@ -1,0 +1,42 @@
+.areaspan
+{
+    margin: 1vw;
+}
+.zonespan
+{
+    margin-left: 5vw;
+    width: 90vw;
+    height: 50vh;
+    overflow: scroll;
+}
+
+  
+.zonespan::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+.savespan
+{
+    display: grid;
+
+    justify-items: center;
+    padding-bottom: 1em;
+
+}
+#areabar::-webkit-scrollbar-track
+{
+    background-color: transparent ;
+
+
+}
+
+.text
+{
+    text-align: center;
+}
+
+.toppart
+{
+    display: grid;
+    justify-items: center;
+    
+}

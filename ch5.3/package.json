@@ -30,6 +30,7 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.7.1",
     "ngx-color": "^9.0.0",
+    "ngx-material-timepicker": "^13.1.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.2"

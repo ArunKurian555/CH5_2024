@@ -65,7 +65,7 @@ export class View4Component implements OnInit {
 this.rout.active=4  }
 
   ZoneArea() {
-  this.rout.active=1  }
+  this.rout.active=3  }
 
     
   Passcode() {
@@ -74,14 +74,17 @@ this.rout.active=4  }
     });
   }
   onclick() {
-    this.rout.active = 5;
+    this.rout.active = 0;
   }
-
+  Userpage() {
+    this.rout.active = 1;
+  }
     LoadSelector() {
-      this.rout.active = 7;
+      this.rout.active = 5;
     }
 
-      public useDefault = false;
+    public useDefault = false;
+      
 
       public toggle(event: MatSlideToggleChange) {
           
@@ -107,4 +110,38 @@ this.rout.active=4  }
           
         } 
       }
+
+
+
+
+
+
+
+
+      public fpDefault = true;
+      
+
+      public fp(event: MatSlideToggleChange) {
+          
+        // this.useDefault = event.checked;
+         if (event.checked==true) {
+          
+         } 
+         else {
+          
+           
+         } 
+         
+     }
+     public fp1()
+     {
+       this.fpDefault =!this.fpDefault;
+       if (this.fpDefault==true) {
+        
+
+       } 
+       else {
+        
+       } 
+     }
 }

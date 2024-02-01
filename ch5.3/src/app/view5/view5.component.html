@@ -1,0 +1,57 @@
+<div class="AreaSelect">
+    <button mat-raised-button color="accent" (click)="clicked()" style="text-align: center; width: 5vw; margin-top: 1em;
+    margin-left: 1em; background-color: aliceblue; padding: 0;"> Return </button>
+    <div style="
+        border: ridge;
+        margin: 5px;
+    
+    ">
+    <p class="text">Zone Area Select</p>
+<div class="toppart">
+    <div style="display: flex;
+    align-items: center;">
+<ch5-textinput style="
+margin: 1rem;" placeholder="Enter number of Areas" class="input" type="text" sendeventonchange="500" receivestatevalue="500" >
+    </ch5-textinput>
+    <ch5-button 
+    label="Enter"
+    size="small"
+    shape="rounded-rectangle"
+    type="primary"
+    sendeventonclick="3000">
+</ch5-button>
+</div>
+</div>
+<div class="areaspan">
+    <ch5-list style="width: 100%; overflow: scroll !important;"  scrollbar="false" receivestatesize="Area.Size" 
+        orientation="horizontal" indexId="idx" maxheight="70vh" id="areabar" >
+        <template ngNonBindable>
+            <ch5-button type="primary" style="height: 6em; padding: 0; margin: 0;" stretch="both"
+                receivestatelabel="Area.AreaName{{idx}}" size="regular" shape="rounded-rectangle"
+                sendEventOnClick="Area.AreaSelect{{idx}}" receivestateselected="Area.AreaSelected{{idx}}">
+            </ch5-button>
+        </template>
+    </ch5-list>
+  
+</div>
+<div class="savespan">
+    <button style="    color: black;
+    background: aliceblue;" class="buttons " mat-raised-button (click)="clicked2($event)" >
+  Save Selection
+    </button>
+
+</div>
+<div class="zonespan" style="border: ridge;">
+    <ch5-list style="width: 100%;"   scrollbar="true" size="250"
+        orientation="vertical" indexId="idx" >
+        <template ngNonBindable>
+            <ch5-button type="primary" style=" padding: 0; margin: 0;" stretch="both"
+                receivestatelabel="Zones.Zone{{idx}}" size="regular" shape="rounded-rectangle"
+                sendEventOnClick="Zones.Press{{idx}}" receivestateselected="Zones.Pressed{{idx}}">
+            </ch5-button>
+        </template>
+    </ch5-list>
+  
+</div>
+</div>
+</div>

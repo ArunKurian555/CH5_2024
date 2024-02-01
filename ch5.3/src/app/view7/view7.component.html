@@ -1,0 +1,68 @@
+<button mat-raised-button color="accent" (click)="clicked()" style="text-align: center; width: 5vw; margin-top: 1em;
+margin-left: 1em; background-color: aliceblue; padding: 0;"> Return </button>
+
+<div class="head">
+
+<p style="margin: 0; text-align: center;"> Select load and sensor type </p>
+<ch5-button type="primary" style=" padding: 2px; margin: 0; width: unset;
+height: 4em;" class="button " stretch="both"
+label="Override all Occupancy & Vacancy" size="regular" shape="rounded-rectangle" sendeventonclick="3001" receivestateselected="3001"> 
+</ch5-button>
+</div>
+
+
+<div style="display: flex;
+justify-content: center;" >
+    <!-- <ch5-list style="width: 100%;"   scrollbar="true" size="250"
+        orientation="vertical" indexId="idx+1" >
+        <template ngNonBindable>
+            <div class="load">
+                <p> Zone {{idx}} </p>
+            <ch5-button type="primary" style=" padding: 0; margin: 0;" class="button" stretch="both"
+               label="OCC" size="regular" shape="rounded-rectangle"
+                sendEventOnClick="Zones.Press{{idx}}" receivestateselected="Zones.Pressed{{idx}}">
+            </ch5-button>
+              <ch5-button type="primary" style=" padding: 0; margin: 0;" class="button" stretch="both"
+                label="VAC" size="regular" shape="rounded-rectangle"
+                sendEventOnClick="Zones.Press{{idx}}" receivestateselected="Zones.Pressed{{idx}}">
+            </ch5-button>
+              <ch5-button type="primary" style=" padding: 0; margin: 0;" class="button" stretch="both"
+              label="DMX" size="regular" shape="rounded-rectangle"
+              size="regular" shape="rounded-rectangle"
+                sendEventOnClick="Zones.Press{{idx}}" receivestateselected="Zones.Pressed{{idx}}">
+            </ch5-button>  
+            <ch5-button type="primary" style=" padding: 0; margin: 0;" class="button" stretch="both"
+            label="CCT" size="regular" shape="rounded-rectangle"
+            size="regular" shape="rounded-rectangle"
+                sendEventOnClick="Zones.Press{{idx}}" receivestateselected="Zones.Pressed{{idx}}">
+            </ch5-button>
+            
+        </div>
+        </template>
+    </ch5-list> -->
+
+    <cdk-virtual-scroll-viewport id="loadscroll" itemSize="50" class=" scroller zonespan " >
+    <div *cdkVirtualFor="let item of activeZone; let idx = index" class="load animate__animated animate__fadeIn">
+        <p> Zone {{idx+1}} </p>
+        <ch5-button type="primary" style=" padding: 0; margin: 0;" class="button" stretch="both"
+           label="OCC" size="regular" shape="rounded-rectangle"
+            sendEventOnClick="Loads[0].Press{{idx}}" receiveStateSelected="Loads[0].Pressed{{idx}}">
+        </ch5-button>
+          <ch5-button type="primary" style=" padding: 0; margin: 0;" class="button" stretch="both"
+            label="VAC" size="regular" shape="rounded-rectangle"
+            sendEventOnClick="Loads[1].Press{{idx}}" receiveStateSelected="Loads[1].Pressed{{idx}}">
+        </ch5-button>
+          <ch5-button type="primary" style=" padding: 0; margin: 0;" class="button" stretch="both"
+          label="COLOR" size="regular" shape="rounded-rectangle"
+          size="regular" shape="rounded-rectangle"
+            sendEventOnClick="Loads[2].Press{{idx}}" receiveStateSelected="Loads[2].Pressed{{idx}}">
+        </ch5-button>  
+        <ch5-button type="primary" style=" padding: 0; margin: 0;" class="button" stretch="both"
+        label="CCT" size="regular" shape="rounded-rectangle"
+        size="regular" shape="rounded-rectangle"
+            sendEventOnClick="Loads[3].Press{{idx}}" receiveStateSelected="Loads[3].Pressed{{idx}}">
+        </ch5-button>
+   </div>
+</cdk-virtual-scroll-viewport>
+  
+</div>

@@ -1,0 +1,36 @@
+.zonespan
+{
+    margin-left: 5vw;
+    width: 90vw;
+    height: 80vh;
+    overflow: scroll;
+}
+
+.zonespan::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  .load{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      align-items: baseline;
+    justify-items: center;
+  }
+  .button{
+      padding: 3px !important;
+  }
+
+
+  .head{
+    display: grid; 
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+  }
+
+#loadscroll
+{
+    height: 80vh;
+    width: 95vw;
+    border: double;
+    margin: 0;
+}
