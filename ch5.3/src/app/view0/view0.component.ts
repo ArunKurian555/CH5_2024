@@ -39,8 +39,8 @@ export class View0Component implements OnInit {
   onClick()
   {
     if(this.activeflag==1)
-    {}
-    this.flag=1;
+    {    this.flag=1;}
+
   }
 
 
