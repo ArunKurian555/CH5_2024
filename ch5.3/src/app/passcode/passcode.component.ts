@@ -1,13 +1,14 @@
 import { CUSTOM_ELEMENTS_SCHEMA, Component } from '@angular/core';
 import { ChRouteServiceService } from '../ch-route-service.service';
 import { MatButtonModule } from '@angular/material/button';
+import { MatDialogModule } from '@angular/material/dialog';
 
 declare var CrComLib: any;
 
 @Component({
   selector: 'app-passcode',
   standalone: true,
-  imports: [MatButtonModule],
+  imports: [MatButtonModule,MatDialogModule],
   templateUrl: './passcode.component.html',
   styleUrl: './passcode.component.scss',
   schemas: [CUSTOM_ELEMENTS_SCHEMA]

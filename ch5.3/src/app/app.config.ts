@@ -13,7 +13,7 @@ const webXPanelFactory = () => () => {
 if(isActive) {
     WebXPanelConfigParams.ipId = '0x03';
     WebXPanelConfigParams.tokenSource
-    WebXPanelConfigParams.authToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsIlNvdXJjZSI6IkNvbnRyb2wgU3lzdGVtIn0.eyJleHAiOjE3MDYyMTMxMjIsInVzZXJuYW1lIjoiT2ZmbGluZVRva2VuIiwiT3B0aW9uYWwiOiI3ODI3NDg3MTMifQ.PYchHCQ5W0NWVRCRLZfK_X-Qrxj2ssQ9LAqCiQ2N0mM';
+    WebXPanelConfigParams.authToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsIlNvdXJjZSI6IkNvbnRyb2wgU3lzdGVtIn0.eyJleHAiOjE3MDY3Mzg5MTcsInVzZXJuYW1lIjoiT2ZmbGluZVRva2VuIiwiT3B0aW9uYWwiOiIyMDgwMTU3OTI4In0.YhyBxDE6WRM_ERimiS2aqrVvlzQg7MvqBIaLQu2jnkA';
     console.log(`Initializing WebXPanel with config: ${JSON.stringify(WebXPanelConfigParams)}`);
     WebXPanel.initialize(WebXPanelConfigParams);
 }

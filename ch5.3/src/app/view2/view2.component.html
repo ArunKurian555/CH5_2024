@@ -4,8 +4,7 @@
         <mat-icon> Lock </mat-icon>
     </button>
          <div class="example-box" *ngFor="let item of items; index as i;" cdkDragBoundary=".example-boundary" cdkDrag
-         [cdkDragStartDelay]="tdelay.active" (cdkDragEnded)="onDragEnded($event,i)" [cdkDragFreeDragPosition]="positionarray[i+1]"
-         (click)="controlpop(i)">
+         [cdkDragStartDelay]="tdelay.active" (cdkDragEnded)="onDragEnded($event,i)" [cdkDragFreeDragPosition]="positionarray[i+1]" (click)="controlpop(i)">
          
             <ch5-button label="Area" receiveStateSelected="Area.AreaSelected{{i}}" receiveStateLabel="Area.AreaName{{i}}" class="AreaSelect zonebtn" type="primary" stretch="both"
             shape="rounded-rectangle">

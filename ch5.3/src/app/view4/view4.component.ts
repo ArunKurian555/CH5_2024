@@ -80,11 +80,7 @@ this.rout.active=4  }
     LoadSelector() {
       this.rout.active = 7;
     }
-  scenesave()
-{
-  this.rout.active = 2;
 
-}
       public useDefault = false;
 
       public toggle(event: MatSlideToggleChange) {

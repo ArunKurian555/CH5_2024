@@ -1,4 +1,4 @@
-import { CUSTOM_ELEMENTS_SCHEMA, Component, OnInit } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { ChRouteServiceService } from '../ch-route-service.service';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { CdkDrag, CdkDragEnd, DragDropModule } from '@angular/cdk/drag-drop';
@@ -7,6 +7,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { TimeDelayService } from '../time-delay.service';
 import { View3Component } from '../view3/view3.component';
 import { RouterOutlet } from '@angular/router';
+
 
 declare var CrComLib: any;
 
@@ -38,11 +39,11 @@ export class View2Component implements OnInit {
         this.items.push(index);
       }
 
-for (let i = 1; i <= 51; i++) {
+for (let i = 0; i < 51; i++) {
   const sigValuex = CrComLib.getState('s', `${300 + i}`, true);
   const sigValuey = CrComLib.getState('s', `${400 + i}`, true);
 
-  this.positionarray[i] = {
+  this.positionarray[i+1] = {
     x: parseFloat(sigValuex),
     y: parseFloat(sigValuey)
   };
@@ -63,16 +64,33 @@ for (let i = 1; i <= 51; i++) {
     });
   }
 
+
+
+
+
+
+
+
+
   public onDragEnded(event: CdkDragEnd, a): void {
-    this.positionarray[a + 1] = event.source.getFreeDragPosition();
-    let x = this.positionarray[a + 1].x.toFixed(1);
-    let y = this.positionarray[a + 1].y.toFixed(1);
+    this.positionarray[a+1] = event.source.getFreeDragPosition();
+    let x = this.positionarray[a+1].x.toFixed(1);
+    let y = this.positionarray[a+1].y.toFixed(1);
     let xc = 300 + a;
     let xa = xc.toString();
     let yc = 400 + a;
     let ya = yc.toString();
     CrComLib.publishEvent('s', xa, x);
     CrComLib.publishEvent('s', ya, y);
-   
+    setTimeout(() => {
+      CrComLib.publishEvent('b', "3071", true);
+      CrComLib.publishEvent('b', "3071", false);
+    }, 1000);
+
+    
+    
+  
   }
+
+
 }
