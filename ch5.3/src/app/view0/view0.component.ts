@@ -27,8 +27,7 @@ export class View0Component implements OnInit {
   flag: number;
   ngOnInit(): void {
 
-    this.rout.active = 2;
-  
+
     const zoneSubKey = CrComLib.subscribeState('s', 'Zones.Zone0', (value) => {
       if (value.length > 0) {
         this.activeflag = 1;
