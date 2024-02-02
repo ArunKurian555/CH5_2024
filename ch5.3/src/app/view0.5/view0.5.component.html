@@ -1,1 +1,9 @@
-<p>view0.5 works!</p>
+<div class="wrapper">
+<div class="example-box" *ngFor="let item of items; index as i;" >
+
+   <ch5-button label="Area" receiveStateSelected="Area.AreaSelected{{i}}" receiveStateLabel="Area.AreaName{{i}}" class="AreaSelect zonebtn" type="primary" stretch="both"
+   shape="rounded-rectangle">
+ </ch5-button>    
+
+
+</div></div>

@@ -77,7 +77,7 @@ this.rout.active=4  }
     this.rout.active = 0;
   }
   Userpage() {
-    this.rout.active = 1;
+    this.rout.active = 6;
   }
     LoadSelector() {
       this.rout.active = 5;
