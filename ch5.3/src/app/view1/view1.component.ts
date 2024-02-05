@@ -26,7 +26,7 @@ export class View1Component implements OnInit  {
     const sig2SubKey = CrComLib.subscribeState('b', 'Pinpad.User', (value: any) => {
       if (value) {
         this.f = 1;
-        // this.rout.active = 1; not working in the update
+      
       }
       if (!value) {
         this.f = 0;
@@ -36,7 +36,7 @@ export class View1Component implements OnInit  {
   
     const sig3SubKey = CrComLib.subscribeState('b', 'Pinpad.Admin', (value: any) => {
       if (value) {
-        // this.rout.active = 2; not working in the update
+       
         this.f = 2;
       }
       if (!value) {

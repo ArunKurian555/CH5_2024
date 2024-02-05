@@ -3,6 +3,7 @@ import { ChRouteServiceService } from '../ch-route-service.service';
 import { MatDialog } from '@angular/material/dialog';
 import { TimeDelayService } from '../time-delay.service';
 import { CommonModule } from '@angular/common';
+import { MatButtonModule } from '@angular/material/button';
 
 
 
@@ -11,7 +12,7 @@ declare var CrComLib: any;
 @Component({
   selector: 'app-view05',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule,MatButtonModule],
   templateUrl: './view0.5.component.html',
   styleUrl: './view0.5.component.scss',
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
@@ -46,6 +47,11 @@ for (let i = 0; i < 51; i++) {
     }, 2000);
 
 
+  }
+
+  onclick() 
+  {
+    this.rout.active = 0;
   }
 
 }

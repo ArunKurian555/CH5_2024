@@ -1,4 +1,7 @@
 <div class="wrapper">
+  <button style="background-color: #ffffff;" class="buttons" mat-fab (click)="onclick()">
+    <mat-icon> Lock </mat-icon>
+</button>
 <div class="example-box" *ngFor="let item of items; index as i;" >
 
    <ch5-button label="Area" receiveStateSelected="Area.AreaSelected{{i}}" receiveStateLabel="Area.AreaName{{i}}" class="AreaSelect zonebtn" type="primary" stretch="both"

@@ -6,6 +6,13 @@ import { View1Component } from './view1/view1.component';
 import { View2Component } from './view2/view2.component';
 import { View0Component } from './view0/view0.component';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+
+
+import { getWebXPanel, runsInContainerApp } from '@crestron/ch5-webxpanel';
+import { WebXPanelService } from '../services/webXPanel';
+const { isActive, WebXPanel, WebXPanelConfigParams, WebXPanelEvents } = getWebXPanel(!runsInContainerApp());
+
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -17,21 +24,25 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 
 export class AppComponent {
-  title = 'ch5.3';
-  constructor(public rout: ChRouteServiceService) 
-  {
+  constructor(public rout: ChRouteServiceService,
+    public webXPanelService: WebXPanelService) {
 
   }
 
   activeflag: any;
 
-
-  ngOnInit() 
- {
-
-
+  ngOnInit() {
+    Object.assign(WebXPanelConfigParams, this.webXPanelService.getWebXPanelConfiguration());
+    console.log(`Initializing WebXPanel with config: ${JSON.stringify(WebXPanelConfigParams)}`, WebXPanelEvents);
+    WebXPanel.initialize(WebXPanelConfigParams);
+    WebXPanel.addEventListener(WebXPanelEvents.NOT_AUTHORIZED, ({ detail }) => {
+      const redirectURL = detail.redirectTo;
+      setTimeout(() => {
+        console.log("redirecting to " + redirectURL);
+        window.location.replace(redirectURL);
+      }, 3000);
+    });
   }
-
 }
 
 

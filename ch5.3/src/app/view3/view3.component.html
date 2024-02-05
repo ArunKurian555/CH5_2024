@@ -81,7 +81,7 @@
 <div class="vscroll">
     <cdk-virtual-scroll-viewport id="loadscroll" itemSize="120" class=" scroller " minBufferPx="600"
     maxBufferPx="1500">
-    <div *cdkVirtualFor="let item of activeZone; let idx = index" class="loads animate__animated animate__fadeIn">
+    <div *cdkVirtualFor="let item of activeZones; let idx = index" class="loads animate__animated animate__fadeIn">
         <!-- <ch5-button id="leftbutton" class="load-button Ls" type="primary"  size="x-small" label="Off" sendEventOnClick="{{activeZones[idx]*10-8}}">
         </ch5-button> -->
         <div class="container" style="display: grid;

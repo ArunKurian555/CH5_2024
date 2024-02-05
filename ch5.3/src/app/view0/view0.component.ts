@@ -44,6 +44,7 @@ export class View0Component implements OnInit {
   {
     if(this.activeflag==1)
     { this.flag=1;   }
+ 
 
   }
 
