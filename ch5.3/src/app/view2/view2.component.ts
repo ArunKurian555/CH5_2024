@@ -29,8 +29,8 @@ export class View2Component implements OnInit {
   constructor(public rout: ChRouteServiceService, public dialog: MatDialog, public tdelay:TimeDelayService ) { }
   items = [1, 2, 3, 4, 5, 6];
   
-  ngOnInit(): void {
-    setTimeout(async () => {
+  async ngOnInit(): Promise<void> {
+
       const areasize = await CrComLib.getState('n', 'Area.Size', true);
       this.positionarray = [];
       this.items = [];
@@ -49,7 +49,7 @@ for (let i = 0; i < 101; i++) {
   };
 }
 
-    }, 1000);
+
 
 
   }
