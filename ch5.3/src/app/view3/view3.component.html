@@ -47,7 +47,7 @@
                     <ch5-button type="primary" class="scnbtn" stretch="both" receivestatelabel="Scenes.ScenesName4" size="regular" shape="rounded-rectangle"
                         receivestateselected="Scenes.Scenefb4" sendEventOnClick="Scenes.Scenes4" mat-dialog-close>
                     </ch5-button>
-                    <ch5-button type="primary" class="scnbtn"
+                    <!-- <ch5-button type="primary" class="scnbtn"
                         stretch="both" receivestatelabel="Scenes.ScenesName5" size="regular" shape="rounded-rectangle"
                         receivestateselected="Scenes.Scenefb5" sendEventOnClick="Scenes.Scenes5" mat-dialog-close>
                     </ch5-button>
@@ -58,7 +58,7 @@
                     <ch5-button type="primary" class="scnbtn"
                         stretch="both" receivestatelabel="Scenes.ScenesName7" size="regular" shape="rounded-rectangle"
                         receivestateselected="Scenes.Scenefb7" sendEventOnClick="Scenes.Scenes7" mat-dialog-close>
-                    </ch5-button>
+                    </ch5-button> -->
                 </div>
             
             <ch5-button label="Save" class="AreaSelect" type="primary"
@@ -88,11 +88,12 @@
         justify-content: center;
         align-items: center;">
             <p id="Zonename" style="margin: 0;">{{activezonelabel[activeZones[idx]]}}</p>
+            <div  *ngIf=" activeNONZUMZones[activeZones[idx]-1] == 1 " >
             <ch5-slider handleShape="circle" orientation="horizontal" tapSettable="true" 
                 style="
-                    margin-bottom: 15px;" sendEventOnChange="{{activeZones[idx]}}"
-                receiveStateValue="{{activeZones[idx]}}" tooltipshowtype="auto" tooltipdisplaytype="%">
+                    margin-bottom: 15px;" sendEventOnChange="{{activeZones[idx]}}" receiveStateValue="{{activeZones[idx]}}" tooltipshowtype="auto" tooltipdisplaytype="%" >
             </ch5-slider>
+        </div>
             <div  *ngIf="CCTactive[activeZones[idx]-1] == 1">
             <ch5-slider class="CCT" handleShape="circle" orientation="horizontal" tapSettable="true" 
                 style="    margin-bottom: 15px;" sendEventOnChange="{{activeZones[idx]+300}}"

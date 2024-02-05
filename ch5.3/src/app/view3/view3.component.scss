@@ -17,7 +17,7 @@
     .wrapper {
       display: grid;
       grid-template-rows: 1fr  4.5fr;
-      height: 70vh;
+      height: 50vh;
       // width: 60vw;
       align-items: center;
       justify-items: center;
@@ -113,7 +113,7 @@
     .vscroll
     {
       
-    height: 42vh;
+    height: 34vh;
     width: 80vw;
     max-width: 800px;
     }
@@ -198,8 +198,8 @@
 
     .scenetile
 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     margin: 10px;
     justify-items: center;
 }

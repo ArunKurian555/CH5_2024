@@ -27,12 +27,18 @@ export class View0Component implements OnInit {
   flag: number;
   ngOnInit(): void {
 
+// // remove above after testing
+//     const zoneSubKey = CrComLib.subscribeState('s', 'Zones.Zone0', (value) => {
+//       if (value.length > 0) {
+//         this.activeflag = 1;
+//       }
+//     });
+setTimeout(async () => {
+  
+  this.rout.active=1;
+  this.flag=1
 
-    const zoneSubKey = CrComLib.subscribeState('s', 'Zones.Zone0', (value) => {
-      if (value.length > 0) {
-        this.activeflag = 1;
-      }
-    });
+}, 5000);
 
   }
 
@@ -40,7 +46,8 @@ export class View0Component implements OnInit {
   {
     if(this.activeflag==1)
     {    this.flag=1;}
-
+    this.rout.active=1;
+    
   }
 
 

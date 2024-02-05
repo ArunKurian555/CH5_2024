@@ -60,6 +60,56 @@ namespace CBlink
         event EventHandler<UIEventArgs> AreaSelect47;
         event EventHandler<UIEventArgs> AreaSelect48;
         event EventHandler<UIEventArgs> AreaSelect49;
+        event EventHandler<UIEventArgs> AreaSelect50;
+        event EventHandler<UIEventArgs> AreaSelect51;
+        event EventHandler<UIEventArgs> AreaSelect52;
+        event EventHandler<UIEventArgs> AreaSelect53;
+        event EventHandler<UIEventArgs> AreaSelect54;
+        event EventHandler<UIEventArgs> AreaSelect55;
+        event EventHandler<UIEventArgs> AreaSelect56;
+        event EventHandler<UIEventArgs> AreaSelect57;
+        event EventHandler<UIEventArgs> AreaSelect58;
+        event EventHandler<UIEventArgs> AreaSelect59;
+        event EventHandler<UIEventArgs> AreaSelect60;
+        event EventHandler<UIEventArgs> AreaSelect61;
+        event EventHandler<UIEventArgs> AreaSelect62;
+        event EventHandler<UIEventArgs> AreaSelect63;
+        event EventHandler<UIEventArgs> AreaSelect64;
+        event EventHandler<UIEventArgs> AreaSelect65;
+        event EventHandler<UIEventArgs> AreaSelect66;
+        event EventHandler<UIEventArgs> AreaSelect67;
+        event EventHandler<UIEventArgs> AreaSelect68;
+        event EventHandler<UIEventArgs> AreaSelect69;
+        event EventHandler<UIEventArgs> AreaSelect70;
+        event EventHandler<UIEventArgs> AreaSelect71;
+        event EventHandler<UIEventArgs> AreaSelect72;
+        event EventHandler<UIEventArgs> AreaSelect73;
+        event EventHandler<UIEventArgs> AreaSelect74;
+        event EventHandler<UIEventArgs> AreaSelect75;
+        event EventHandler<UIEventArgs> AreaSelect76;
+        event EventHandler<UIEventArgs> AreaSelect77;
+        event EventHandler<UIEventArgs> AreaSelect78;
+        event EventHandler<UIEventArgs> AreaSelect79;
+        event EventHandler<UIEventArgs> AreaSelect80;
+        event EventHandler<UIEventArgs> AreaSelect81;
+        event EventHandler<UIEventArgs> AreaSelect82;
+        event EventHandler<UIEventArgs> AreaSelect83;
+        event EventHandler<UIEventArgs> AreaSelect84;
+        event EventHandler<UIEventArgs> AreaSelect85;
+        event EventHandler<UIEventArgs> AreaSelect86;
+        event EventHandler<UIEventArgs> AreaSelect87;
+        event EventHandler<UIEventArgs> AreaSelect88;
+        event EventHandler<UIEventArgs> AreaSelect89;
+        event EventHandler<UIEventArgs> AreaSelect90;
+        event EventHandler<UIEventArgs> AreaSelect91;
+        event EventHandler<UIEventArgs> AreaSelect92;
+        event EventHandler<UIEventArgs> AreaSelect93;
+        event EventHandler<UIEventArgs> AreaSelect94;
+        event EventHandler<UIEventArgs> AreaSelect95;
+        event EventHandler<UIEventArgs> AreaSelect96;
+        event EventHandler<UIEventArgs> AreaSelect97;
+        event EventHandler<UIEventArgs> AreaSelect98;
+        event EventHandler<UIEventArgs> AreaSelect99;
 
         void AreaSelected0(AreaBoolInputSigDelegate callback);
         void AreaSelected1(AreaBoolInputSigDelegate callback);
@@ -111,6 +161,56 @@ namespace CBlink
         void AreaSelected47(AreaBoolInputSigDelegate callback);
         void AreaSelected48(AreaBoolInputSigDelegate callback);
         void AreaSelected49(AreaBoolInputSigDelegate callback);
+        void AreaSelected50(AreaBoolInputSigDelegate callback);
+        void AreaSelected51(AreaBoolInputSigDelegate callback);
+        void AreaSelected52(AreaBoolInputSigDelegate callback);
+        void AreaSelected53(AreaBoolInputSigDelegate callback);
+        void AreaSelected54(AreaBoolInputSigDelegate callback);
+        void AreaSelected55(AreaBoolInputSigDelegate callback);
+        void AreaSelected56(AreaBoolInputSigDelegate callback);
+        void AreaSelected57(AreaBoolInputSigDelegate callback);
+        void AreaSelected58(AreaBoolInputSigDelegate callback);
+        void AreaSelected59(AreaBoolInputSigDelegate callback);
+        void AreaSelected60(AreaBoolInputSigDelegate callback);
+        void AreaSelected61(AreaBoolInputSigDelegate callback);
+        void AreaSelected62(AreaBoolInputSigDelegate callback);
+        void AreaSelected63(AreaBoolInputSigDelegate callback);
+        void AreaSelected64(AreaBoolInputSigDelegate callback);
+        void AreaSelected65(AreaBoolInputSigDelegate callback);
+        void AreaSelected66(AreaBoolInputSigDelegate callback);
+        void AreaSelected67(AreaBoolInputSigDelegate callback);
+        void AreaSelected68(AreaBoolInputSigDelegate callback);
+        void AreaSelected69(AreaBoolInputSigDelegate callback);
+        void AreaSelected70(AreaBoolInputSigDelegate callback);
+        void AreaSelected71(AreaBoolInputSigDelegate callback);
+        void AreaSelected72(AreaBoolInputSigDelegate callback);
+        void AreaSelected73(AreaBoolInputSigDelegate callback);
+        void AreaSelected74(AreaBoolInputSigDelegate callback);
+        void AreaSelected75(AreaBoolInputSigDelegate callback);
+        void AreaSelected76(AreaBoolInputSigDelegate callback);
+        void AreaSelected77(AreaBoolInputSigDelegate callback);
+        void AreaSelected78(AreaBoolInputSigDelegate callback);
+        void AreaSelected79(AreaBoolInputSigDelegate callback);
+        void AreaSelected80(AreaBoolInputSigDelegate callback);
+        void AreaSelected81(AreaBoolInputSigDelegate callback);
+        void AreaSelected82(AreaBoolInputSigDelegate callback);
+        void AreaSelected83(AreaBoolInputSigDelegate callback);
+        void AreaSelected84(AreaBoolInputSigDelegate callback);
+        void AreaSelected85(AreaBoolInputSigDelegate callback);
+        void AreaSelected86(AreaBoolInputSigDelegate callback);
+        void AreaSelected87(AreaBoolInputSigDelegate callback);
+        void AreaSelected88(AreaBoolInputSigDelegate callback);
+        void AreaSelected89(AreaBoolInputSigDelegate callback);
+        void AreaSelected90(AreaBoolInputSigDelegate callback);
+        void AreaSelected91(AreaBoolInputSigDelegate callback);
+        void AreaSelected92(AreaBoolInputSigDelegate callback);
+        void AreaSelected93(AreaBoolInputSigDelegate callback);
+        void AreaSelected94(AreaBoolInputSigDelegate callback);
+        void AreaSelected95(AreaBoolInputSigDelegate callback);
+        void AreaSelected96(AreaBoolInputSigDelegate callback);
+        void AreaSelected97(AreaBoolInputSigDelegate callback);
+        void AreaSelected98(AreaBoolInputSigDelegate callback);
+        void AreaSelected99(AreaBoolInputSigDelegate callback);
         void Size(AreaUShortInputSigDelegate callback);
         void ActiveArea(AreaStringInputSigDelegate callback);
         void AreaName0(AreaStringInputSigDelegate callback);
@@ -163,6 +263,56 @@ namespace CBlink
         void AreaName47(AreaStringInputSigDelegate callback);
         void AreaName48(AreaStringInputSigDelegate callback);
         void AreaName49(AreaStringInputSigDelegate callback);
+        void AreaName50(AreaStringInputSigDelegate callback);
+        void AreaName51(AreaStringInputSigDelegate callback);
+        void AreaName52(AreaStringInputSigDelegate callback);
+        void AreaName53(AreaStringInputSigDelegate callback);
+        void AreaName54(AreaStringInputSigDelegate callback);
+        void AreaName55(AreaStringInputSigDelegate callback);
+        void AreaName56(AreaStringInputSigDelegate callback);
+        void AreaName57(AreaStringInputSigDelegate callback);
+        void AreaName58(AreaStringInputSigDelegate callback);
+        void AreaName59(AreaStringInputSigDelegate callback);
+        void AreaName60(AreaStringInputSigDelegate callback);
+        void AreaName61(AreaStringInputSigDelegate callback);
+        void AreaName62(AreaStringInputSigDelegate callback);
+        void AreaName63(AreaStringInputSigDelegate callback);
+        void AreaName64(AreaStringInputSigDelegate callback);
+        void AreaName65(AreaStringInputSigDelegate callback);
+        void AreaName66(AreaStringInputSigDelegate callback);
+        void AreaName67(AreaStringInputSigDelegate callback);
+        void AreaName68(AreaStringInputSigDelegate callback);
+        void AreaName69(AreaStringInputSigDelegate callback);
+        void AreaName70(AreaStringInputSigDelegate callback);
+        void AreaName71(AreaStringInputSigDelegate callback);
+        void AreaName72(AreaStringInputSigDelegate callback);
+        void AreaName73(AreaStringInputSigDelegate callback);
+        void AreaName74(AreaStringInputSigDelegate callback);
+        void AreaName75(AreaStringInputSigDelegate callback);
+        void AreaName76(AreaStringInputSigDelegate callback);
+        void AreaName77(AreaStringInputSigDelegate callback);
+        void AreaName78(AreaStringInputSigDelegate callback);
+        void AreaName79(AreaStringInputSigDelegate callback);
+        void AreaName80(AreaStringInputSigDelegate callback);
+        void AreaName81(AreaStringInputSigDelegate callback);
+        void AreaName82(AreaStringInputSigDelegate callback);
+        void AreaName83(AreaStringInputSigDelegate callback);
+        void AreaName84(AreaStringInputSigDelegate callback);
+        void AreaName85(AreaStringInputSigDelegate callback);
+        void AreaName86(AreaStringInputSigDelegate callback);
+        void AreaName87(AreaStringInputSigDelegate callback);
+        void AreaName88(AreaStringInputSigDelegate callback);
+        void AreaName89(AreaStringInputSigDelegate callback);
+        void AreaName90(AreaStringInputSigDelegate callback);
+        void AreaName91(AreaStringInputSigDelegate callback);
+        void AreaName92(AreaStringInputSigDelegate callback);
+        void AreaName93(AreaStringInputSigDelegate callback);
+        void AreaName94(AreaStringInputSigDelegate callback);
+        void AreaName95(AreaStringInputSigDelegate callback);
+        void AreaName96(AreaStringInputSigDelegate callback);
+        void AreaName97(AreaStringInputSigDelegate callback);
+        void AreaName98(AreaStringInputSigDelegate callback);
+        void AreaName99(AreaStringInputSigDelegate callback);
 
     }
 
@@ -241,6 +391,56 @@ namespace CBlink
                 public const uint AreaSelect47 = 48;
                 public const uint AreaSelect48 = 49;
                 public const uint AreaSelect49 = 50;
+                public const uint AreaSelect50 = 51;
+                public const uint AreaSelect51 = 52;
+                public const uint AreaSelect52 = 53;
+                public const uint AreaSelect53 = 54;
+                public const uint AreaSelect54 = 55;
+                public const uint AreaSelect55 = 56;
+                public const uint AreaSelect56 = 57;
+                public const uint AreaSelect57 = 58;
+                public const uint AreaSelect58 = 59;
+                public const uint AreaSelect59 = 60;
+                public const uint AreaSelect60 = 61;
+                public const uint AreaSelect61 = 62;
+                public const uint AreaSelect62 = 63;
+                public const uint AreaSelect63 = 64;
+                public const uint AreaSelect64 = 65;
+                public const uint AreaSelect65 = 66;
+                public const uint AreaSelect66 = 67;
+                public const uint AreaSelect67 = 68;
+                public const uint AreaSelect68 = 69;
+                public const uint AreaSelect69 = 70;
+                public const uint AreaSelect70 = 71;
+                public const uint AreaSelect71 = 72;
+                public const uint AreaSelect72 = 73;
+                public const uint AreaSelect73 = 74;
+                public const uint AreaSelect74 = 75;
+                public const uint AreaSelect75 = 76;
+                public const uint AreaSelect76 = 77;
+                public const uint AreaSelect77 = 78;
+                public const uint AreaSelect78 = 79;
+                public const uint AreaSelect79 = 80;
+                public const uint AreaSelect80 = 81;
+                public const uint AreaSelect81 = 82;
+                public const uint AreaSelect82 = 83;
+                public const uint AreaSelect83 = 84;
+                public const uint AreaSelect84 = 85;
+                public const uint AreaSelect85 = 86;
+                public const uint AreaSelect86 = 87;
+                public const uint AreaSelect87 = 88;
+                public const uint AreaSelect88 = 89;
+                public const uint AreaSelect89 = 90;
+                public const uint AreaSelect90 = 91;
+                public const uint AreaSelect91 = 92;
+                public const uint AreaSelect92 = 93;
+                public const uint AreaSelect93 = 94;
+                public const uint AreaSelect94 = 95;
+                public const uint AreaSelect95 = 96;
+                public const uint AreaSelect96 = 97;
+                public const uint AreaSelect97 = 98;
+                public const uint AreaSelect98 = 99;
+                public const uint AreaSelect99 = 100;
 
                 public const uint AreaSelected0 = 1;
                 public const uint AreaSelected1 = 2;
@@ -292,6 +492,56 @@ namespace CBlink
                 public const uint AreaSelected47 = 48;
                 public const uint AreaSelected48 = 49;
                 public const uint AreaSelected49 = 50;
+                public const uint AreaSelected50 = 51;
+                public const uint AreaSelected51 = 52;
+                public const uint AreaSelected52 = 53;
+                public const uint AreaSelected53 = 54;
+                public const uint AreaSelected54 = 55;
+                public const uint AreaSelected55 = 56;
+                public const uint AreaSelected56 = 57;
+                public const uint AreaSelected57 = 58;
+                public const uint AreaSelected58 = 59;
+                public const uint AreaSelected59 = 60;
+                public const uint AreaSelected60 = 61;
+                public const uint AreaSelected61 = 62;
+                public const uint AreaSelected62 = 63;
+                public const uint AreaSelected63 = 64;
+                public const uint AreaSelected64 = 65;
+                public const uint AreaSelected65 = 66;
+                public const uint AreaSelected66 = 67;
+                public const uint AreaSelected67 = 68;
+                public const uint AreaSelected68 = 69;
+                public const uint AreaSelected69 = 70;
+                public const uint AreaSelected70 = 71;
+                public const uint AreaSelected71 = 72;
+                public const uint AreaSelected72 = 73;
+                public const uint AreaSelected73 = 74;
+                public const uint AreaSelected74 = 75;
+                public const uint AreaSelected75 = 76;
+                public const uint AreaSelected76 = 77;
+                public const uint AreaSelected77 = 78;
+                public const uint AreaSelected78 = 79;
+                public const uint AreaSelected79 = 80;
+                public const uint AreaSelected80 = 81;
+                public const uint AreaSelected81 = 82;
+                public const uint AreaSelected82 = 83;
+                public const uint AreaSelected83 = 84;
+                public const uint AreaSelected84 = 85;
+                public const uint AreaSelected85 = 86;
+                public const uint AreaSelected86 = 87;
+                public const uint AreaSelected87 = 88;
+                public const uint AreaSelected88 = 89;
+                public const uint AreaSelected89 = 90;
+                public const uint AreaSelected90 = 91;
+                public const uint AreaSelected91 = 92;
+                public const uint AreaSelected92 = 93;
+                public const uint AreaSelected93 = 94;
+                public const uint AreaSelected94 = 95;
+                public const uint AreaSelected95 = 96;
+                public const uint AreaSelected96 = 97;
+                public const uint AreaSelected97 = 98;
+                public const uint AreaSelected98 = 99;
+                public const uint AreaSelected99 = 100;
             }
             internal static class Numerics
             {
@@ -352,6 +602,56 @@ namespace CBlink
                 public const uint AreaName47 = 49;
                 public const uint AreaName48 = 50;
                 public const uint AreaName49 = 51;
+                public const uint AreaName50 = 52;
+                public const uint AreaName51 = 53;
+                public const uint AreaName52 = 54;
+                public const uint AreaName53 = 55;
+                public const uint AreaName54 = 56;
+                public const uint AreaName55 = 57;
+                public const uint AreaName56 = 58;
+                public const uint AreaName57 = 59;
+                public const uint AreaName58 = 60;
+                public const uint AreaName59 = 61;
+                public const uint AreaName60 = 62;
+                public const uint AreaName61 = 63;
+                public const uint AreaName62 = 64;
+                public const uint AreaName63 = 65;
+                public const uint AreaName64 = 66;
+                public const uint AreaName65 = 67;
+                public const uint AreaName66 = 68;
+                public const uint AreaName67 = 69;
+                public const uint AreaName68 = 70;
+                public const uint AreaName69 = 71;
+                public const uint AreaName70 = 72;
+                public const uint AreaName71 = 73;
+                public const uint AreaName72 = 74;
+                public const uint AreaName73 = 75;
+                public const uint AreaName74 = 76;
+                public const uint AreaName75 = 77;
+                public const uint AreaName76 = 78;
+                public const uint AreaName77 = 79;
+                public const uint AreaName78 = 80;
+                public const uint AreaName79 = 81;
+                public const uint AreaName80 = 82;
+                public const uint AreaName81 = 83;
+                public const uint AreaName82 = 84;
+                public const uint AreaName83 = 85;
+                public const uint AreaName84 = 86;
+                public const uint AreaName85 = 87;
+                public const uint AreaName86 = 88;
+                public const uint AreaName87 = 89;
+                public const uint AreaName88 = 90;
+                public const uint AreaName89 = 91;
+                public const uint AreaName90 = 92;
+                public const uint AreaName91 = 93;
+                public const uint AreaName92 = 94;
+                public const uint AreaName93 = 95;
+                public const uint AreaName94 = 96;
+                public const uint AreaName95 = 97;
+                public const uint AreaName96 = 98;
+                public const uint AreaName97 = 99;
+                public const uint AreaName98 = 100;
+                public const uint AreaName99 = 101;
             }
         }
 
@@ -421,6 +721,56 @@ namespace CBlink
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect47, onAreaSelect47);
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect48, onAreaSelect48);
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect49, onAreaSelect49);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect50, onAreaSelect50);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect51, onAreaSelect51);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect52, onAreaSelect52);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect53, onAreaSelect53);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect54, onAreaSelect54);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect55, onAreaSelect55);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect56, onAreaSelect56);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect57, onAreaSelect57);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect58, onAreaSelect58);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect59, onAreaSelect59);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect60, onAreaSelect60);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect61, onAreaSelect61);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect62, onAreaSelect62);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect63, onAreaSelect63);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect64, onAreaSelect64);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect65, onAreaSelect65);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect66, onAreaSelect66);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect67, onAreaSelect67);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect68, onAreaSelect68);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect69, onAreaSelect69);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect70, onAreaSelect70);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect71, onAreaSelect71);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect72, onAreaSelect72);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect73, onAreaSelect73);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect74, onAreaSelect74);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect75, onAreaSelect75);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect76, onAreaSelect76);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect77, onAreaSelect77);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect78, onAreaSelect78);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect79, onAreaSelect79);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect80, onAreaSelect80);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect81, onAreaSelect81);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect82, onAreaSelect82);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect83, onAreaSelect83);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect84, onAreaSelect84);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect85, onAreaSelect85);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect86, onAreaSelect86);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect87, onAreaSelect87);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect88, onAreaSelect88);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect89, onAreaSelect89);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect90, onAreaSelect90);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect91, onAreaSelect91);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect92, onAreaSelect92);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect93, onAreaSelect93);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect94, onAreaSelect94);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect95, onAreaSelect95);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect96, onAreaSelect96);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect97, onAreaSelect97);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect98, onAreaSelect98);
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.AreaSelect99, onAreaSelect99);
 
         }
 
@@ -840,6 +1190,406 @@ namespace CBlink
                 handler(this, UIEventArgs.CreateEventArgs(eventArgs));
         }
 
+        public event EventHandler<UIEventArgs> AreaSelect50;
+        private void onAreaSelect50(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect50;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect51;
+        private void onAreaSelect51(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect51;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect52;
+        private void onAreaSelect52(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect52;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect53;
+        private void onAreaSelect53(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect53;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect54;
+        private void onAreaSelect54(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect54;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect55;
+        private void onAreaSelect55(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect55;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect56;
+        private void onAreaSelect56(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect56;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect57;
+        private void onAreaSelect57(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect57;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect58;
+        private void onAreaSelect58(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect58;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect59;
+        private void onAreaSelect59(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect59;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect60;
+        private void onAreaSelect60(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect60;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect61;
+        private void onAreaSelect61(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect61;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect62;
+        private void onAreaSelect62(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect62;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect63;
+        private void onAreaSelect63(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect63;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect64;
+        private void onAreaSelect64(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect64;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect65;
+        private void onAreaSelect65(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect65;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect66;
+        private void onAreaSelect66(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect66;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect67;
+        private void onAreaSelect67(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect67;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect68;
+        private void onAreaSelect68(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect68;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect69;
+        private void onAreaSelect69(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect69;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect70;
+        private void onAreaSelect70(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect70;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect71;
+        private void onAreaSelect71(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect71;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect72;
+        private void onAreaSelect72(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect72;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect73;
+        private void onAreaSelect73(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect73;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect74;
+        private void onAreaSelect74(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect74;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect75;
+        private void onAreaSelect75(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect75;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect76;
+        private void onAreaSelect76(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect76;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect77;
+        private void onAreaSelect77(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect77;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect78;
+        private void onAreaSelect78(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect78;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect79;
+        private void onAreaSelect79(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect79;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect80;
+        private void onAreaSelect80(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect80;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect81;
+        private void onAreaSelect81(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect81;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect82;
+        private void onAreaSelect82(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect82;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect83;
+        private void onAreaSelect83(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect83;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect84;
+        private void onAreaSelect84(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect84;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect85;
+        private void onAreaSelect85(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect85;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect86;
+        private void onAreaSelect86(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect86;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect87;
+        private void onAreaSelect87(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect87;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect88;
+        private void onAreaSelect88(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect88;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect89;
+        private void onAreaSelect89(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect89;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect90;
+        private void onAreaSelect90(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect90;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect91;
+        private void onAreaSelect91(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect91;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect92;
+        private void onAreaSelect92(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect92;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect93;
+        private void onAreaSelect93(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect93;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect94;
+        private void onAreaSelect94(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect94;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect95;
+        private void onAreaSelect95(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect95;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect96;
+        private void onAreaSelect96(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect96;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect97;
+        private void onAreaSelect97(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect97;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect98;
+        private void onAreaSelect98(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect98;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        public event EventHandler<UIEventArgs> AreaSelect99;
+        private void onAreaSelect99(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = AreaSelect99;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
 
         public void AreaSelected0(AreaBoolInputSigDelegate callback)
         {
@@ -1238,6 +1988,406 @@ namespace CBlink
             for (int index = 0; index < Devices.Count; index++)
             {
                 callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected49], this);
+            }
+        }
+
+        public void AreaSelected50(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected50], this);
+            }
+        }
+
+        public void AreaSelected51(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected51], this);
+            }
+        }
+
+        public void AreaSelected52(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected52], this);
+            }
+        }
+
+        public void AreaSelected53(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected53], this);
+            }
+        }
+
+        public void AreaSelected54(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected54], this);
+            }
+        }
+
+        public void AreaSelected55(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected55], this);
+            }
+        }
+
+        public void AreaSelected56(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected56], this);
+            }
+        }
+
+        public void AreaSelected57(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected57], this);
+            }
+        }
+
+        public void AreaSelected58(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected58], this);
+            }
+        }
+
+        public void AreaSelected59(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected59], this);
+            }
+        }
+
+        public void AreaSelected60(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected60], this);
+            }
+        }
+
+        public void AreaSelected61(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected61], this);
+            }
+        }
+
+        public void AreaSelected62(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected62], this);
+            }
+        }
+
+        public void AreaSelected63(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected63], this);
+            }
+        }
+
+        public void AreaSelected64(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected64], this);
+            }
+        }
+
+        public void AreaSelected65(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected65], this);
+            }
+        }
+
+        public void AreaSelected66(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected66], this);
+            }
+        }
+
+        public void AreaSelected67(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected67], this);
+            }
+        }
+
+        public void AreaSelected68(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected68], this);
+            }
+        }
+
+        public void AreaSelected69(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected69], this);
+            }
+        }
+
+        public void AreaSelected70(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected70], this);
+            }
+        }
+
+        public void AreaSelected71(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected71], this);
+            }
+        }
+
+        public void AreaSelected72(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected72], this);
+            }
+        }
+
+        public void AreaSelected73(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected73], this);
+            }
+        }
+
+        public void AreaSelected74(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected74], this);
+            }
+        }
+
+        public void AreaSelected75(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected75], this);
+            }
+        }
+
+        public void AreaSelected76(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected76], this);
+            }
+        }
+
+        public void AreaSelected77(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected77], this);
+            }
+        }
+
+        public void AreaSelected78(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected78], this);
+            }
+        }
+
+        public void AreaSelected79(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected79], this);
+            }
+        }
+
+        public void AreaSelected80(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected80], this);
+            }
+        }
+
+        public void AreaSelected81(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected81], this);
+            }
+        }
+
+        public void AreaSelected82(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected82], this);
+            }
+        }
+
+        public void AreaSelected83(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected83], this);
+            }
+        }
+
+        public void AreaSelected84(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected84], this);
+            }
+        }
+
+        public void AreaSelected85(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected85], this);
+            }
+        }
+
+        public void AreaSelected86(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected86], this);
+            }
+        }
+
+        public void AreaSelected87(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected87], this);
+            }
+        }
+
+        public void AreaSelected88(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected88], this);
+            }
+        }
+
+        public void AreaSelected89(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected89], this);
+            }
+        }
+
+        public void AreaSelected90(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected90], this);
+            }
+        }
+
+        public void AreaSelected91(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected91], this);
+            }
+        }
+
+        public void AreaSelected92(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected92], this);
+            }
+        }
+
+        public void AreaSelected93(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected93], this);
+            }
+        }
+
+        public void AreaSelected94(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected94], this);
+            }
+        }
+
+        public void AreaSelected95(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected95], this);
+            }
+        }
+
+        public void AreaSelected96(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected96], this);
+            }
+        }
+
+        public void AreaSelected97(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected97], this);
+            }
+        }
+
+        public void AreaSelected98(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected98], this);
+            }
+        }
+
+        public void AreaSelected99(AreaBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.AreaSelected99], this);
             }
         }
 
@@ -1659,6 +2809,406 @@ namespace CBlink
             }
         }
 
+        public void AreaName50(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName50], this);
+            }
+        }
+
+        public void AreaName51(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName51], this);
+            }
+        }
+
+        public void AreaName52(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName52], this);
+            }
+        }
+
+        public void AreaName53(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName53], this);
+            }
+        }
+
+        public void AreaName54(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName54], this);
+            }
+        }
+
+        public void AreaName55(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName55], this);
+            }
+        }
+
+        public void AreaName56(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName56], this);
+            }
+        }
+
+        public void AreaName57(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName57], this);
+            }
+        }
+
+        public void AreaName58(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName58], this);
+            }
+        }
+
+        public void AreaName59(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName59], this);
+            }
+        }
+
+        public void AreaName60(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName60], this);
+            }
+        }
+
+        public void AreaName61(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName61], this);
+            }
+        }
+
+        public void AreaName62(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName62], this);
+            }
+        }
+
+        public void AreaName63(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName63], this);
+            }
+        }
+
+        public void AreaName64(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName64], this);
+            }
+        }
+
+        public void AreaName65(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName65], this);
+            }
+        }
+
+        public void AreaName66(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName66], this);
+            }
+        }
+
+        public void AreaName67(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName67], this);
+            }
+        }
+
+        public void AreaName68(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName68], this);
+            }
+        }
+
+        public void AreaName69(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName69], this);
+            }
+        }
+
+        public void AreaName70(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName70], this);
+            }
+        }
+
+        public void AreaName71(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName71], this);
+            }
+        }
+
+        public void AreaName72(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName72], this);
+            }
+        }
+
+        public void AreaName73(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName73], this);
+            }
+        }
+
+        public void AreaName74(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName74], this);
+            }
+        }
+
+        public void AreaName75(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName75], this);
+            }
+        }
+
+        public void AreaName76(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName76], this);
+            }
+        }
+
+        public void AreaName77(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName77], this);
+            }
+        }
+
+        public void AreaName78(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName78], this);
+            }
+        }
+
+        public void AreaName79(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName79], this);
+            }
+        }
+
+        public void AreaName80(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName80], this);
+            }
+        }
+
+        public void AreaName81(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName81], this);
+            }
+        }
+
+        public void AreaName82(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName82], this);
+            }
+        }
+
+        public void AreaName83(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName83], this);
+            }
+        }
+
+        public void AreaName84(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName84], this);
+            }
+        }
+
+        public void AreaName85(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName85], this);
+            }
+        }
+
+        public void AreaName86(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName86], this);
+            }
+        }
+
+        public void AreaName87(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName87], this);
+            }
+        }
+
+        public void AreaName88(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName88], this);
+            }
+        }
+
+        public void AreaName89(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName89], this);
+            }
+        }
+
+        public void AreaName90(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName90], this);
+            }
+        }
+
+        public void AreaName91(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName91], this);
+            }
+        }
+
+        public void AreaName92(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName92], this);
+            }
+        }
+
+        public void AreaName93(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName93], this);
+            }
+        }
+
+        public void AreaName94(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName94], this);
+            }
+        }
+
+        public void AreaName95(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName95], this);
+            }
+        }
+
+        public void AreaName96(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName96], this);
+            }
+        }
+
+        public void AreaName97(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName97], this);
+            }
+        }
+
+        public void AreaName98(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName98], this);
+            }
+        }
+
+        public void AreaName99(AreaStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.AreaName99], this);
+            }
+        }
+
         #endregion
 
         #region Overrides
@@ -1736,6 +3286,56 @@ namespace CBlink
             AreaSelect47 = null;
             AreaSelect48 = null;
             AreaSelect49 = null;
+            AreaSelect50 = null;
+            AreaSelect51 = null;
+            AreaSelect52 = null;
+            AreaSelect53 = null;
+            AreaSelect54 = null;
+            AreaSelect55 = null;
+            AreaSelect56 = null;
+            AreaSelect57 = null;
+            AreaSelect58 = null;
+            AreaSelect59 = null;
+            AreaSelect60 = null;
+            AreaSelect61 = null;
+            AreaSelect62 = null;
+            AreaSelect63 = null;
+            AreaSelect64 = null;
+            AreaSelect65 = null;
+            AreaSelect66 = null;
+            AreaSelect67 = null;
+            AreaSelect68 = null;
+            AreaSelect69 = null;
+            AreaSelect70 = null;
+            AreaSelect71 = null;
+            AreaSelect72 = null;
+            AreaSelect73 = null;
+            AreaSelect74 = null;
+            AreaSelect75 = null;
+            AreaSelect76 = null;
+            AreaSelect77 = null;
+            AreaSelect78 = null;
+            AreaSelect79 = null;
+            AreaSelect80 = null;
+            AreaSelect81 = null;
+            AreaSelect82 = null;
+            AreaSelect83 = null;
+            AreaSelect84 = null;
+            AreaSelect85 = null;
+            AreaSelect86 = null;
+            AreaSelect87 = null;
+            AreaSelect88 = null;
+            AreaSelect89 = null;
+            AreaSelect90 = null;
+            AreaSelect91 = null;
+            AreaSelect92 = null;
+            AreaSelect93 = null;
+            AreaSelect94 = null;
+            AreaSelect95 = null;
+            AreaSelect96 = null;
+            AreaSelect97 = null;
+            AreaSelect98 = null;
+            AreaSelect99 = null;
         }
 
         #endregion

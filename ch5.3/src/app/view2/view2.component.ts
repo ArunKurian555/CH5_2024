@@ -39,7 +39,7 @@ export class View2Component implements OnInit {
         this.items.push(index);
       }
 
-for (let i = 0; i < 51; i++) {
+for (let i = 0; i < 101; i++) {
   const sigValuex = CrComLib.getState('s', `${300 + i}`, true);
   const sigValuey = CrComLib.getState('s', `${400 + i}`, true);
 
@@ -49,7 +49,7 @@ for (let i = 0; i < 51; i++) {
   };
 }
 
-    }, 2000);
+    }, 1000);
 
 
   }

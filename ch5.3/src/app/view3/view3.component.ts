@@ -40,6 +40,7 @@ export class View3Component implements OnInit{
   value: string;
   numvalue: number;
   activeZones: number[];
+  activeNONZUMZones: number[];
   DMXactive: number[];
   CCTactive: number[];
   step = 'null';
@@ -65,6 +66,22 @@ export class View3Component implements OnInit{
       }
       self.activeZones = items;
 
+    });
+
+
+    
+    const sig2SubKeyZUM = CrComLib.subscribeState('s', '296', function (value) {
+      self.value = value;
+      let items = [];
+      for (let i = 0; i < self.value.length; i++) {
+        if (self.value[i] === "1") {
+          items.push(1);
+        }
+        if (self.value[i] === "0") {
+          items.push(0);
+        }
+      }
+      self.activeNONZUMZones = items;
     });
  
     ////////////////////////// Zone names
