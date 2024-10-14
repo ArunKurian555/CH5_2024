@@ -25,8 +25,8 @@
   }
   
   .example-boundary {
-    width: 2854px;
-    height: 2215px;
+    width: 3000px;
+    height: 7000px;
     border: double;
     margin-top: 1em;
     
@@ -39,13 +39,13 @@
   .contain
   {
     background: azure;
-    width: 100vw;
+         width: 100vw;
     height: 100vh;
     overflow: auto; 
 
     display: grid;
     overflow-x: scroll;
-    overflow-y: scroll;
+            overflow-y: scroll;
     justify-items: center;
     align-items: center;
   }

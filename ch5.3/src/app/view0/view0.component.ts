@@ -33,7 +33,7 @@ setTimeout(async () => {
   
   const zoneSubKey = CrComLib.subscribeState('s', 'Zones.Zone0', (value) => {
     if (value.length > 0) {
-      this.activeflag = 1;
+         this.activeflag = 1;
     }
   });
   

@@ -55,7 +55,7 @@ for (let i = 0; i < 101; i++) {
   }
   onclick() 
   {
-    this.rout.active = 0;
+    window.location.href = 'https://10.243.212.109'
   }
   controlpop(i) {
     CrComLib.publishEvent('b', "Area.AreaSelect" + i, true);
